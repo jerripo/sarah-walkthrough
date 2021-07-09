@@ -106,7 +106,7 @@ q:after {
 }
 
 blockquote {
- / *background-color: #F8F8F8;*/
+ /* background-color: #F8F8F8;*/
   border-left: 2px solid #AFC0D2;
   margin: 1.6em 10%;
   padding: 0.75em 1em;
