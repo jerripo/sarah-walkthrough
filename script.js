@@ -182,8 +182,6 @@ ul.main-menu li a.active {
 }
 
 
-
-
 .spoilerbutton[value="Show"] + .spoiler > div {
   margin-top: -100%;
 }
@@ -191,4 +189,4 @@ ul.main-menu li a.active {
 .spoilerbutton[value="Hide"] + .spoiler {
   padding: 5px;
 }
-*/
+
