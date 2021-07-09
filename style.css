@@ -127,9 +127,12 @@ html,
   background-color: transparent;
 }
 html {
+  background: url(background.jpg);
+  background-size: cover;}
+/*html {
   background: url(background.jpg)centercenterno-repeatfixed;
   background-size: cover;
-}
+}*/
 body {
   max-width: 800px;
   margin: 25px auto;
