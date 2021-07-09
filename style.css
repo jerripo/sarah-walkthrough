@@ -124,7 +124,7 @@ blockquote p:last-child {
 html,
 #container,
 .inner {
-  background-color: grey;
+  background-color: #FFFD96;
 }
 
 /*html {
