@@ -1,79 +1,267 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Your title here</title>
-    <meta name="description" content="A brief description of your site for search engines">
-    <meta name="author" content="Information about the author here">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
+    <meta charset="utf-8" />
+    <title>Sarah Walkthrough</title>
+    <meta
+      name="description"
+      content="Walkthrough and hints and tips for Sarah Newgrounds Game Escape room points and click"
+    />
+    <meta name="JinxSpell" content="Game creator" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
     <!-- Stylesheets -->
     <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Want to add Bootstrap? -->
     <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
   </head>
-  
-  <body>
 
+  <body>
     <header id="header">
-      <img src="logo.jpg">
-      <h1>Simple Website</h1>
-      
+      <a href="https://www.newgrounds.com/portal/view/748322" target="_blank"
+        ><img
+          src="https://cdn.glitch.com/6718384f-7f94-455b-844c-75f32eee867b%2Flogo.JPG?v=1625800056594"
+      /></a>
+      <h1>Sarah Hints & Walkthrough</h1>
+
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
+        <li><a href="#home">HINTS</a></li>
+        <li><a href="#about">WALKTHROUGH</a></li>
+        <li><a href="#contact">FAST</a></li>
+      </ul>
     </header>
-   
+
     <div id="container">
       <div class="inner">
-        <div id="content"> 
-          
+        <div id="content">
           <div id="home" class="content-region hide">
-            <h2>Home</h2>
-            <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/cpl-makerlab/simple-website-template">Fork this repository</a> to create your own site!
-            </p>
+            <h2>Hints</h2>
+            <!----------------PHONE CODE HINTS------------------>
+            <h4>
+              What is the code?
+            </h4>
+
+            <button id="button1" onclick="show(this)">Hint 1</button>
+            <div id="button1text" class="hinttext" style="display:none">
+              Sarah's lockscreen image is a hint.
+            </div>
+            <br />
+            <button id="button2" onclick="show(this)">
+              I don't get Hint 1
+            </button>
+            <div id="button2text" class="hinttext" style="display:none">
+              Who does Sarah love?
+            </div>
+            <br />
+            <button id="button3" onclick="show(this)">Hint 2</button>
+            <div id="button3text" class="hinttext" style="display:none">
+              Sarah's phone code is her boyfriend's birthday.
+            </div>
+            <br />
+            <button id="button4" onclick="show(this)">Answer</button>
+            <div id="button4text" class="hinttext" style="display:none">
+              The code is 1116 (Nov. 16).
+            </div>
+            <br />
+            <br />
+            <!---------- UNLOCK CHEST-------------------->
+            <h4>
+              How to unlock chest?
+            </h4>
+            <button id="button5" onclick="show(this)">
+              Hint 1
+            </button>
+            <div id="button5text" class="hinttext" style="display:none">
+              Where are keys usually placed?
+            </div>
+
+            <br />
+
+            <button id="button6" onclick="show(this)">
+              Answer
+            </button>
+            <div id="button6text" class="hinttext" style="display:none">
+              The key is in the second drawer, vertically.
+            </div>
+            <br />
+            <br />
+
+            <!----------------------UNLOCK DIARY--------------------------->
+            <h4>
+              How to unlock diary?
+            </h4>
+            <button id="button7" onclick="show(this)">
+              Hint 1
+            </button>
+            <div id="button7text" class="hinttext" style="display:none">
+              The diary key is in the desk's secret compartment. Need to use
+              things in the room to unlock it.
+            </div>
+            <br />
+
+            <button id="button8" onclick="show(this)">
+              Hint 2
+            </button>
+            <div id="button8text" class="hinttext" style="display:none">
+              Light plug is under the bed.
+            </div>
+            <br />
+
+            <button id="button9" onclick="show(this)">
+              Hint 3
+            </button>
+            <div id="button9text" class="hinttext" style="display:none">
+              Plug in the light: click under the bed to find plug. Click outlet,
+              then click outlet again to plug it in.
+            </div>
+            <br />
+
+            <button id="button10" onclick="show(this)">
+              Hint 4
+            </button>
+            <div id="button10text" class="hinttext" style="display:none">
+              Click light to turn it.
+            </div>
+
+            <br />
+
+            <button id="button11" onclick="show(this)">
+              Hint 5
+            </button>
+            <div id="button11text" class="hinttext" style="display:none">
+              Close window curtains.
+            </div>
+            <br />
+
+            <button id="button12" onclick="show(this)">
+              Hint 6
+            </button>
+            <div id="button12text" class="hinttext" style="display:none">
+              Open the desk drawers that the light shines on.
+            </div>
+            <br />
+
+            <button id="button13" onclick="show(this)">
+              I have the key, but can't open diary
+            </button>
+            <div id="button13text" class="hinttext" style="display:none">
+              Click diary in inventory. Then click the lock on the diary.
+            </div>
+
+            <br />
+            <br />
+            <!---------- DONE GAME? WHAT HAPPENED?-------------------->
+            <h4>
+              I'm done the game. What happened?
+            </h4>
+
+            <button id="button14" onclick="show(this)">
+              Spoiler
+            </button>
+            <div id="button14text" class="hinttext" style="display:none">
+              Everyone in town is out looking for Sarah, so there is no one
+              home. You found Sarah's phone and deleted some incriminating chat
+              logs. You ripped out pages of her diary mentioning a suspicious
+              person. She didn't tell anyone about meeting you at the bar,
+              because she would get in trouble for underage drinking. You
+              escape the way you came in, through the window. Congrats, you
+              destroyed all the leads and sucessfully escaped!
+            </div>
+
+            <br />
           </div>
-          
+
           <div id="about" class="content-region hide">
-            <h2>About</h2>
+            <h2>Story Walkthrough</h2>
             <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
+              1. Backstory: <br />Newspaper - everyone in town is out looking
+              for Sarah, an abducted teenager. <br />Fridge photos - photos of
+              Sarah and her family. <br /><br />
+              2. Find Sarah's phone:
+              <br />
+              - In bedroom, look under pillows. <br />
+              - Click phone. The lockscreen has a heart (hint).<br />
+              - See photo of Sarah and her boyfriend, Sam, on her shelf.<br />
+              - In the kitchen, look at the calendar.<br />
+              - Code is her boyfriend's birthday, Nov. 16 (1116).<br />
+
+              <br />
+              3. Find Sarah's diary:
+
+              <br />- In bedroom, look in desk drawers to find the chest key
+              (2nd drawer down). <br />- Open chest. <br />
+              - Take diary. The key is in the secret compartment in the desk. To
+              open it: <br />
+              - Look under bed for plug. <br />
+              - Click outlet, then click outlet again to plug in the light.
+              <br />
+              - Close window curtains. <br />
+              - Turn the light. <br />
+              - Open the drawers that the desk light shines on. <br />
+              - Click heart key. <br />
+              - Click diary in inventory, and click the lock to unlock it.
             </p>
+            <escape>Congrats! You escaped!</escape>
           </div>
-          
+
           <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
+            <h2>Fast Walkthrough</h2>
+            <h4>Phone</h4>
             <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
+              Bedroom:<br />
+              - Click pillows, click phone. <br />
+              - Click phone. Click code 1116.
             </p>
+            <h4>Diary</h4>
+            <p>
+              Bedroom:<br />
+              - Open the second desk drawer (vertically). <br />
+              - Take key.<br />
+              - Open chest with key. <br />
+              - Take diary.<br />
+              - Click under bed to get plug. <br />
+              - Click outlet, click outlet again to plug in plug.<br />
+              - Close curtains.<br />
+              - Turn light.<br />
+              - Open the desk drawers that the light shines on. <br />
+              - Click on heart key.<br />
+              - Click on diary in inventory. <br />
+              - Click on diary lock.<br />
+            </p>
+            <escape>Congrats! You escaped!</escape>
           </div>
-          
         </div>
       </div>
     </div>
 
-    <footer>  
-      Footer region
-    </footer>
-    
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
-    
   </body>
 </html>
