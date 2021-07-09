@@ -124,13 +124,10 @@ blockquote p:last-child {
 html,
 #container,
 .inner {
-  background-color: #FFFD96;
+  background-color: grey;
 }
 
-/*html {
-  background: url(background.jpg)centercenterno-repeatfixed;
-  background-size: cover;
-}*/
+
 body {
   max-width: 800px;
   margin: 25px auto;
